@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>FULL SPECTRUM VISION S.R.L.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            background: #1a1a1a;
+            color: #f2f2f2;
+        }
+
+        h1, h2, h3 {
+            font-family: "Oswald", sans-serif;
+            letter-spacing: 1px;
+        }
+
+        section {
+            padding: 100px 10%;
+            border-bottom: 1px solid #333;
+        }
+
+        /* GRUNGE STYLE */
+        body, section {
+            background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #c0392b;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+            border: 2px solid #c0392b;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: transparent;
+            color: #c0392b;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .row img {
+            max-width: 450px;
+            border: 5px solid #444;
+            filter: grayscale(70%);
+        }
+
+        .services, .advantages, .process {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+
+        .card {
+            background: #111;
+            padding: 25px;
+            border: 1px solid #333;
+        }
+
+        /* Contact full-screen */
+        #contact {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        form {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 400px;
+        }
+
+        input, textarea {
+            padding: 12px;
+            background: #222;
+            border: 1px solid #444;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 10%;
+            background: #111;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- 1. HERO -->
+<section id="hero">
+    <h1>FULL SPECTRUM VISION S.R.L.</h1>
+    <h2 style="max-width: 700px; line-height: 1.6;">
+        Într-o lume în continuă schimbare, oferim companiilor ghidaj strategic, vizibilitate reală și soluții creative care transformă direcții de brand în rezultate măsurabile. Ne concentrăm pe suport operațional, marketing, consultanță și publicitate cu impact.
+    </h2>
+    <br>
+    <a href="#contact" class="btn">Contacte</a>
+</section>
+
+<!-- 2. ABOUT US -->
+<section id="about">
+    <h2>Viziune din Spatele Cortinei</h2>
+    <div class="row">
+        <div>
+            <p>
+                FULL SPECTRUM VISION S.R.L. este o echipă care combină analiza de business cu gândirea creativă pentru a oferi companiilor suport real în dezvoltarea lor. 
+                Ne ocupăm de optimizarea proceselor, construcția identităților de brand și implementarea campaniilor de comunicare ce rămân în mintea publicului.
+            </p>
+            <p>
+                Punem accent pe strategie, dar livrăm cu o abordare practică orientată spre rezultate. Colaborăm strâns cu clienții noștri pentru a transforma viziunea lor în direcții clare și acțiuni precise. 
+                Suntem aici pentru a face fiecare proiect funcțional, memorabil și adaptat pieței reale.
+            </p>
+        </div>
+        <img src="https://plus.unsplash.com/premium_photo-1661310027237-8f4ed9ebc6ee?w=600&auto=format&fit=crop&q=60" alt="Echipă">
+    </div>
+</section>
+
+<!-- 3. SERVICES -->
+<section id="services">
+    <h2>Ce Putem Face Pentru Brandul Tău</h2>
+    <div class="services">
+
+        <div class="card">
+            <h3>Business Support Services</h3>
+            <p>
+                Oferim suport în organizarea activităților interne, optimizarea fluxurilor de lucru și structurarea proceselor operaționale. 
+                Scopul nostru este să reducem blocajele și să creăm eficiență acolo unde contează cel mai mult. 
+                Transformăm haosul în direcție clară și funcțională.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Marketing & Growth</h3>
+            <p>
+                Construim strategii de marketing personalizate, orientate către creștere și diferențiere. 
+                Analizăm piața, definim publicul și creăm acțiuni care oferă vizibilitate și rezultate reale. 
+                Fiecare campanie este calibrată pentru impact maxim.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Brand Consulting & Advertising</h3>
+            <p>
+                Dezvoltăm identități de brand autentice și campanii publicitare cu personalitate. 
+                Lucrăm cu viziune creativă, dar și cu disciplină strategică, pentru ca mesajul tău să fie puternic și memorabil. 
+                Creăm povești care se văd, se aud și se simt.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- 4. ADVANTAGES -->
+<section id="advantages">
+    <h2>De Ce Colaborează Clienții cu Noi</h2>
+    <div class="advantages">
+
+        <div class="card">
+            <h3>Abordare Directă și Transparentă</h3>
+            <p>
+                Spunem lucrurilor pe nume și lucrăm fără complicații inutile. Oferim claritate și planuri concrete, nu teorie în exces.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Strategie Combinată cu Execuție</h3>
+            <p>
+                Nu ne limităm la consultanță – implementăm și ajustăm. Rămânem implicați în proiect până când rezultatul este solid.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Focalizare pe Identitate Autentică</h3>
+            <p>
+                Ajutăm companiile să își găsească vocea reală și să construiască branduri cu caracter și durabilitate.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- 5. PROCESS -->
+<section id="process">
+    <h2>Cum Lucrăm — Procesul Nostru</h2>
+    <div class="process">
+
+        <div class="card">
+            <h3>1. Analiză & Direcție</h3>
+            <p>
+                Evaluăm situația actuală a companiei, blocajele și oportunitățile. Definim obiective clare și realiste.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>2. Strategie Personalizată</h3>
+            <p>
+                Construim planuri adaptate industriei tale, resurselor disponibile și obiectivelor de creștere.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>3. Implementare & Ajustare</h3>
+            <p>
+                Punem în practică strategia, urmărim rezultatele și ajustăm direcția pentru eficiență maximă.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- 6. CONTACT -->
+<section id="contact">
+    <h2>Hai Să Facem Primul Pas</h2>
+    <p style="max-width: 600px; line-height: 1.6;">
+        Dacă ai un proiect, o idee sau o provocare pe care vrei să o duci la următorul nivel, scrie-ne.  
+        Suntem pregătiți să analizăm, să construim și să aducem claritate acolo unde ai nevoie.
+    </p>
+
+    <p><strong>Email:</strong> box@fullspectrumvision.agency</p>
+    <p><strong>Adresă:</strong> Str. Razoare NR. 3 AP. 15, Floresti, Cluj 407280</p>
+
+    <form>
+        <input type="text" placeholder="Nume">
+        <input type="email" placeholder="Email">
+        <textarea rows="4" placeholder="Mesaj"></textarea>
+        <button class="btn">Trimite</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 FULL SPECTRUM VISION S.R.L. — Strategie. Identitate. Impact.
+</footer>
+
+</body>
+</html>
